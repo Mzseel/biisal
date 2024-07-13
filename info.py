@@ -22,7 +22,7 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002237064392'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Eoz70odTpso5Mzll')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002228259707').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://movies:zone@cluster0.argoezs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://puneisodbd:1YdRI6JYey8eBKWc@cluster0.jc065gz.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
@@ -31,7 +31,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.j
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002237064392'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
-URL = environ.get('URL', 'kind-mole-j3692905-e1352c7e.koyeb.app')
+URL = environ.get('URL', 'yappiest-letti-freeg-66e380a1.koyeb.app')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
