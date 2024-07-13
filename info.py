@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6990938880:AAGGssmNDRcbxLcH9hJ4UIw0M61MdJB
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2116648189').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002237064392'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Eoz70odTpso5Mzll')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001907540026').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://movies:zone@cluster0.argoezs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -59,7 +59,7 @@ SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002163900860'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002163900860')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002237064392'))
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002000054678'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002148459929'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
