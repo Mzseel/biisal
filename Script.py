@@ -272,7 +272,7 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏ�
 
     MOVIES_UPDATE_TXT = """<b>
 🎬 Tɪᴛʟᴇ - {title}
-💫 ɪᴍᴅʙ ʀᴀᴛɪɴɢ - {rating}
+💫 ɪᴍᴅʙ ʀᴀᴛɪɴɢ - {rating}/10
 🧩 Gᴇɴʀᴇ - {genres}
  
 📝 Sᴛᴏʀy Lɪɴᴇ - {description}
