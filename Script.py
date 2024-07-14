@@ -5,14 +5,18 @@ class script(object):
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨</b>
 <b>ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 🤞🏻</b>
 
-Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://telegram.me/Movies_Zone_Media'>Mᴏᴠɪᴇꜱ Zᴏɴᴇ Mᴇᴅɪᴀ</a>
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a>
 </b>"""
     
-    HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
+    HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..
+    
+    Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
     
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
-ɴᴏᴛᴇ - ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋ ɪɴ ʙᴏᴛʜ ɢʀᴏᴜᴘs ᴀɴᴅ ʙᴏᴛ ᴘᴍ</b>"""
+ɴᴏᴛᴇ - ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋ ɪɴ ʙᴏᴛʜ ɢʀᴏᴜᴘs ᴀɴᴅ ʙᴏᴛ ᴘᴍ
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
     FSUB_TXT = """<b>• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ 😗
 • ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
 • sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
@@ -22,7 +26,9 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://telegram.me/Movies_Zone_Media'>Mᴏᴠ
 
 ᴛᴏ ᴅɪsᴀʙʟᴇ ғsᴜʙ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, sɪᴍᴘʟʏ sᴇɴᴅ <code>/del_fsub</code>
 
-ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code></b>"""
+ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code>
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
     ADMIN_CMD_TXT = """<b>- /m_grp this command is used to set grp link of movies and pm grp
 - /stream this command is used to set stream link For bot
 - /premium this command is used to add premium
@@ -32,9 +38,12 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://telegram.me/Movies_Zone_Media'>Mᴏᴠ
 - /set_muc this command is used to set movie updates chat id
 - /del_muc this command is used to delete movie updates chat id
 - /post_mode this command is used to set post mode for Movies Updates Channel
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://telegram.me/Movies_Zone_Media'>Mᴏᴠɪᴇꜱ Zᴏɴᴇ Mᴇᴅɪᴀ</a>
 </b>"""
     TTS_TXT="""
-<b>• sᴇɴᴅ /tts ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ</b>"""
+<b>• sᴇɴᴅ /tts ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
 
     ABOUT_TEXT = """<b>🎭 ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {},
     
@@ -45,23 +54,30 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://telegram.me/Movies_Zone_Media'>Mᴏᴠ
 😚 ᴍʏ ᴛʀᴜsᴛʏ sᴛᴇᴇᴅ: <a href="https://github.com/Mayuri-Chan/pyrofork">ᴘʏʀᴏғᴏʀᴋ</a>
 🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ʟᴏʀᴅ ᴋʀɪsʜɴᴀ
 🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/Mr_Haryanvi"Jaat">𝐌ʀ 𝐇ᴀʀʏᴀɴᴠɪ 🇮🇳</a>
-🧑🏻‍💻 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">Mᴏᴠɪᴇꜱ Zᴏɴᴇ Mᴇᴅɪᴀ</a>
+
+🧑🏻‍💻 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a>
 </b>"""
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
 ɪ ғᴏᴜɴᴅ {} ʀᴇsᴜʟᴛs 🎁,
 ʙᴜᴛ ɪ ᴄᴀɴ'ᴛ sᴇɴᴅ ʜᴇʀᴇ 🤞🏻
-ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ✨</b>'''
+ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ✨
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>'''
 
     
     REF_LINK = '''🔗 <b>Hᴇʀᴇ ɪs ᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ: <code>https://telegram.me/{}?start=Movies_Zone-{}</code>
     
 👥 Fᴏʀ ᴇᴠᴇʀʏ ɴᴇᴡ ᴜsᴇʀ ᴡʜᴏ sᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ ᴜsɪɴɢ ᴛʜɪs ʟɪɴᴋ, ʏᴏᴜ ᴡɪʟʟ ʀᴇᴄᴇɪᴠᴇ 200 ᴘᴏɪɴᴛs. 
 
-🎉 Oɴᴄᴇ ʏᴏᴜ ʀᴇᴀᴄʜ {} ᴘᴏɪɴᴛs, ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss.</b>'''
+🎉 Oɴᴄᴇ ʏᴏᴜ ʀᴇᴀᴄʜ {} ᴘᴏɪɴᴛs, ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss.
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>'''
     REF_PREMEUM = '''<b>ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs!\n\nYᴏᴜ'ᴠᴇ ʀᴇᴀᴄʜᴇᴅ {} ᴘᴏɪɴᴛs, ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ᴇʟɪɢɪʙʟᴇ ғᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss. Yᴏᴜʀ ᴘᴏɪɴᴛs ʜᴀᴠᴇ ʙᴇᴇɴ ʀᴇsᴇᴛ. Rᴇғᴇʀ ᴍᴏʀᴇ ᴛᴏ ᴇxᴛᴇɴᴅ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss ғᴜʀᴛʜᴇʀ.\n\nᴜsᴇ /myplan ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</b>'''
     REF_START = '''<b>{} ,sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ᴜsɪɴɢ ʏᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ
-ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘᴏɪɴᴛ ɪs : {}</b>'''
+ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘᴏɪɴᴛ ɪs : {}
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>'''
     REF_POINT = '''<b>ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘᴏɪɴᴛ ɪs : {},
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ ↓↓</b>'''
     STATUS_TXT = """<b><u>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</u>
@@ -79,7 +95,9 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://telegram.me/Movies_Zone_Media'>Mᴏᴠ
 
 » ᴜᴘᴛɪᴍᴇ - <code>{}</code>
 » ʀᴀᴍ - <code>{}%</code>
-» ᴄᴘᴜ - <code>{}%</code></b>"""
+» ᴄᴘᴜ - <code>{}%</code>
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
 
     NEW_USER_TXT = """<b>#New_User {}
 
@@ -107,7 +125,7 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<b><a href='https://t.me/bisal_movies_zone_media'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    FILE_CAPTION = """<b><a href='https://t.me/movies_zone_media'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
@@ -151,7 +169,9 @@ User - {}"""
 •────•────────•────•
 
 ➥ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan
-‼️ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs & ɪᴛ's ᴘʀɪᴄᴇs</b>"""
+‼️ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs & ɪᴛ's ᴘʀɪᴄᴇs
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
 
     BUY_PLAN = """<b>○ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>rayaviseek@ibl</code> ᴜᴘɪ ɪᴅ.
     
@@ -159,7 +179,9 @@ User - {}"""
 
 ○ <u>ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ sᴛᴇᴘ</u> : ᴏʀ ᴜᴘʟᴏᴀᴅ ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ /bought ᴄᴏᴍᴍᴀɴᴅ.
 
-Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴀғᴛᴇʀ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ</b>"""
+Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴀғᴛᴇʀ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
     PLAN_TEXT = """<b>ᴡᴇ ᴀʀᴇ ᴘʀᴏᴠɪᴅɪɴɢ ᴘʀᴇᴍɪᴜᴍ ᴀᴛ ᴛʜᴇ ʟᴏᴡᴇsᴛ ᴘʀɪᴄᴇs:
     
 1 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ 👻
@@ -167,6 +189,8 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 55 ʀᴜᴘᴇᴇs ғᴏʀ ᴛᴡᴏ ᴍᴏɴᴛʜs 😗
 
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ʙᴜʏɪɴɢ ↡↡↡
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a>
 </b>"""
     EARN_TEXT = """<b>🤑 ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ᴛʜɪs ʙᴏᴛ -
 
@@ -192,7 +216,9 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 
-💯 ɴᴏᴛᴇ - <i>ᴛʜɪs ʙᴏᴛ ɪs ꜰʀᴇᴇ ᴛᴏ ᴀʟʟ, ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ.</i></b>"""
+💯 ɴᴏᴛᴇ - <i>ᴛʜɪs ʙᴏᴛ ɪs ꜰʀᴇᴇ ᴛᴏ ᴀʟʟ, ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ.</i>
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a></b>"""
 
     VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {} {},
 
@@ -252,4 +278,6 @@ Genre: {genres}
 Description: {description}
 
 {file_name}
+
+Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a>
 </b>"""
