@@ -109,7 +109,7 @@ User - {}"""
 🗒ꜱᴛᴏʀʏ - {description}</b>
 """
 
-    FILE_CAPTION = """<b>ɴᴀᴍᴇ : [@Movies_Zone_Media] {file_name}</b>"""
+    FILE_CAPTION = """<b><a href='https://t.me/bisal_movies_zone_media'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
