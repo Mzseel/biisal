@@ -31,7 +31,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/35a67b93dddb7c4c1363a.j
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002237064392'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
-URL = environ.get('URL', 'kind-mole-j3692905-e1352c7e.koyeb.app')
+URL = environ.get('URL', '')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -98,3 +98,32 @@ DEFAULT_POST_MODE = {
     'singel_post_mode' : False,
     'all_files_post_mode' : False
 }
+
+NO_PORT = bool(environ.get('NO_PORT', False))
+APP_NAME = None
+if 'DYNO' in environ:
+    ON_HEROKU = True
+    APP_NAME = environ.get('APP_NAME')
+else:
+    ON_HEROKU = False
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
+URL = "https://kind-mole-j3692905-e1352c7e.koyeb.app.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://kind-mole-j3692905-e1352c7e.koyeb.app.com/".format(FQDN, PORT)
+SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
+WORKERS = int(environ.get('WORKERS', '4'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
+MULTI_CLIENT = False
+name = str(environ.get('name', 'LazyPrincess'))
+PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+if 'DYNO' in environ:
+    ON_HEROKU = True
+    APP_NAME = str(getenv('APP_NAME'))
+
+else:
+    ON_HEROKU = False
+HAS_SSL=bool(getenv('HAS_SSL',False))
+if HAS_SSL:
+    URL = "https:/kind-mole-j3692905-e1352c7e.koyeb.app.com/".format(FQDN)
+else:
+    URL = "https://kind-mole-j3692905-e1352c7e.koyeb.app.com/".format(FQDN)
