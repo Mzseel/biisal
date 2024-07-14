@@ -126,7 +126,7 @@ User - {}"""
 🗒ꜱᴛᴏʀʏ - {plot}</b>
 """
 
-    FILE_CAPTION = """<b><a href='https://t.me/movies_zone_media'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    FILE_CAPTION = """<b>ɴᴀᴍᴇ : [@Movies_Zone_Media] {file_name}</b>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
