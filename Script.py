@@ -122,7 +122,8 @@ User - {}"""
 🎭 ɢᴇɴʀᴇs - {genres}
 🎖 ʀᴀᴛɪɴɢ - <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
 📆 ʏᴇᴀʀ - {release_date}
-❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
+❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}
+🗒ꜱᴛᴏʀʏ - {plot}</b>
 """
 
     FILE_CAPTION = """<b><a href='https://t.me/movies_zone_media'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
