@@ -270,13 +270,13 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏ�
 
 #verified_{}_completed"""
 
-    MOVIES_UPDATE_TXT = """<b>#New_File_Added
+    MOVIES_UPDATE_TXT = """<b>
+🎬 Tɪᴛʟᴇ - {title}
+💫 ɪᴍᴅʙ ʀᴀᴛɪɴɢ - {rating}
+🧩 Gᴇɴʀᴇ - {genres}
+ 
+📝 Sᴛᴏʀy Lɪɴᴇ - {description}
 
-Title: {title}
-Rating: {rating}
-Genre: {genres}
-
-Description: {description}
 
 {file_name}
 
