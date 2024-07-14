@@ -1404,7 +1404,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             genres=imdb['genres'],
             poster=imdb['poster'],
             plot=imdb['plot'],
-            rating=imdb['rating']
+            rating=imdb['rating'],
             description=imdb['plot'],
             url=imdb['url'],
             **locals()
