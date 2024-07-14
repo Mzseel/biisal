@@ -104,9 +104,7 @@ User - {}"""
 🎭 ɢᴇɴʀᴇs - {genres}
 🎖 ʀᴀᴛɪɴɢ - <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
 📆 ʏᴇᴀʀ - {release_date}
-❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}
-
-🗒ꜱᴛᴏʀʏ - {description}</b>
+❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
     FILE_CAPTION = """<b><a href='https://t.me/bisal_movies_zone_media'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
