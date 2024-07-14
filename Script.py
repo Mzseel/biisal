@@ -277,8 +277,5 @@ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏ�
  
 📝 Sᴛᴏʀy Lɪɴᴇ - {description}
 
-
-{file_name}
-
 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://telegram.me/Movies_Zone_Media">ᴍᴏᴠɪᴇꜱ ᴢᴏɴᴇ ᴍᴇᴅɪᴀ</a>
 </b>"""
