@@ -125,6 +125,6 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "conscious-isahella-mzmedua.koyeb.app".format(FQDN)
+    URL = "https://conscious-isahella-mzmedua.koyeb.app/".format(FQDN)
 else:
-    URL = "conscious-isahella-mzmedua.koyeb.app".format(FQDN)
+    URL = "https://conscious-isahella-mzmedua.koyeb.app/".format(FQDN)
