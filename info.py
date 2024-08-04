@@ -32,7 +32,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/35a67b93dddb7c4c1363a.j
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002237064392'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
-URL = environ.get('URL', '')
+URL = environ.get('URL', 'conscious-isahella-mzmedua.koyeb.app')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -109,8 +109,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "".format(FQDN, PORT)
+URL = "conscious-isahella-mzmedua.koyeb.app".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "conscious-isahella-mzmedua.koyeb.app".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -125,6 +125,6 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "".format(FQDN)
+    URL = "conscious-isahella-mzmedua.koyeb.app".format(FQDN)
 else:
-    URL = "".format(FQDN)
+    URL = "conscious-isahella-mzmedua.koyeb.app".format(FQDN)
