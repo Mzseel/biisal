@@ -20,6 +20,12 @@ BUTTONS = {}
 FILES_ID = {}
 CAP = {}
 
+import logging
+from urllib.parse import quote_plus
+from Silicon.util.file_properties import get_name, get_hash, get_media_file_size
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.ERROR)
+
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_search(client, message):
     if str(message.text).startswith('/'):
@@ -750,21 +756,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.startswith("stream"):
         user_id = query.from_user.id
         file_id = query.data.split('#', 1)[1]
-        STREAM_LINK = await db.get_stream_link()
-        AKS = await client.send_cached_media(
-            chat_id=BIN_CHANNEL,
-            file_id=file_id)
-        online = f"{STREAM_LINK if STREAM_LINK else URL}/watch/{AKS.id}?hash={get_hash(AKS)}"
-        download = f"{STREAM_LINK if STREAM_LINK else URL}/{AKS.id}?hash={get_hash(AKS)}"
-        btn= [[
+        log_msg = await client.send_cached_media(
+        chat_id=LOG_CHANNEL,
+        file_id=file_id
+        )
+        fileName = quote_plus(get_name(log_msg))
+        online = f"{URL}watch/{log_msg.id}?hash={get_hash(log_msg)}"
+        download = f"{URL}{log_msg.id}?hash={get_hash(log_msg)}"
+        btn = [[
             InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
             InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
         ],[
             InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
         ]]
         await query.edit_message_reply_markup(
-            reply_markup=InlineKeyboardMarkup(btn)
+        reply_markup=InlineKeyboardMarkup(btn)
         )
+        username = query.from_user.username
+        await log_msg.reply_text(
+            text=f"#LinkGenrated\n\nIᴅ : <code>{user_id}</code>\nUꜱᴇʀɴᴀᴍᴇ : {username}\n\nNᴀᴍᴇ : {fileName}",
+            quote=True,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([
+                [
+                    InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download),
+                    InlineKeyboardButton('ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', url=online)
+                ]
+            ])
+        )
+
 
     elif query.data == "buttons":
         await query.answer("ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇs 😊", show_alert=True)
